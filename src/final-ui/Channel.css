@@ -1,0 +1,41 @@
+.ChannelStrip {
+  height: 100vh;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+  box-sizing: border-box;
+  padding: 10px 10px;
+}
+
+.FullHeight {
+  padding: 10px 5px;
+  flex-grow: 1;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  grid-template-rows: 1fr; 
+  grid-column-gap: 0px;
+  grid-row-gap: 0px; 
+  color: #fff;
+  font-style: bold;
+  border-radius: 10px;
+  background-color: #0F746E;
+}
+
+.Label {
+  color: #fff;
+  border-radius: 10px;
+  background-color: #0F746E;
+  width: 100%;
+  padding: 5px 0;
+  margin: 10px 0 0 0;
+  text-align: center;
+  --aux-main-fontsize: 150%;
+}
+
+/* METER */
+
+.ChannelStrip .aux-meter .aux-mask {
+  opacity: 1;
+}

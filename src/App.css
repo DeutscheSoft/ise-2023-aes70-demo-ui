@@ -1,0 +1,13 @@
+:root {
+  --aux-main-text: #fff !important;
+  --aux-main-tinyfontsize: 12px !important;
+  --aux-active-base: darkorange !important;
+  --aux-scale-fontweight: bold !important;
+}
+
+.App {
+  display: flex;
+  align-items: stretch;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
